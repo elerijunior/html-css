@@ -47,21 +47,36 @@ main section{
     padding-top: 10vh;
     line-height: 2em;  
 }
+main section >p {
+    padding: 2em;
+}
 
 main section.normal{
     background-color: white;
     padding-left: 30px;
 }
 main section.imagem{
-    
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: rgba(0, 0, 0, 0.171);
     color: white;
     padding-left: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.233);
 }
 main section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-shadow:  1px 1px 1px black;
+}
+main section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right bottom;
+}
+main section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right bottom;
+    
 }
 footer{
     background-color: black;
