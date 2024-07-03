@@ -6,16 +6,23 @@
     <title>Teste Imagem de Fundo com Cnteúdo</title>
     <style>
         body{
-            height: 100vh;
+            /*;
             background-color: grey;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;--> */
+            
+            /* shothand
+            /*color > image > position > /size > repeat
+            > attachament*/
+            height: 100vh;
+            background: grey url(imagens/wallpaper002.jpg) center center /cover no-repeat fixed  ;
         }
         main{
             margin: auto;
-            width: 400px;
+            max-width: 400px;
             background-color: white;
             border: 2px solid black;
             border-radius: 7px;
