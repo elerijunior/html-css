@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             background-color: aquamarine;
@@ -19,6 +20,11 @@
             font-size: 2em;
             padding: 10px;
             border: 1px solid black;
+        }
+        thead tr,th{
+            position: sticky;
+            top: -1px;
+            background-color: aqua;
         }
         thead th {
             font-weight: bold;
